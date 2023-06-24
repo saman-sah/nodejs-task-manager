@@ -1,17 +1,7 @@
 [
     {
         "id": 1,
-        "title": "Learn Node.js",
-        "compeleted": false
-    },
-    {
-        "id": 2,
-        "title": "Learn JavaScript",
-        "compeleted":true
-    },
-    {
-        "id": 3,
-        "title": "Learn TypeSript",
-        "compeleted": true
+        "title": "Learn NodeJs",
+        "completed": false
     }
 ]

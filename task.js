@@ -77,8 +77,11 @@ export default class Task {
         }        
     }
 
-    static getAllTasks() {
+    static getAllTasks(rawObject= false) {
         const tasks= DB.getAllTasks();
+        if(rawObject== true) {
+            return tasks
+        }
         const items=[];
         for(let task of tasks) {
             const item= new Task(task.title, task.completed)

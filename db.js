@@ -180,7 +180,7 @@ export default class DB {
         }
     }
 
-    static deleteTaske(id) {
+    static deleteTask(id) {
         id= Number(id);
         if(id > 0 && id === parseInt(id)) {
             let data;
